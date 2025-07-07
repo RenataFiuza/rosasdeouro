@@ -1,0 +1,24 @@
+name: rosas_de_ouro
+description: Sistema de cadastro de oficinas para o projeto Rosas de Ouro.
+
+publish_to: 'none' # Remove esta linha se for publicar no pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.0         # Necessário para chamadas HTTP (se houver)
+  sqflite: ^2.0.0+4     # Necessário para trabalhar com o banco de dados SQLite
+  path: ^1.8.0          # Necessário para manipulação de caminhos no SQLite
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
